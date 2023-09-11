@@ -33,6 +33,15 @@ jobs:
     needs: setup
 
     steps:
+      - name: Restore npm cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+      
+      - name: Copy package.json
+        run: cp $GITHUB_WORKSPACE/package.json .
+
       - name: Install dependencies and generate package-lock.json
         run: |
           npm install
