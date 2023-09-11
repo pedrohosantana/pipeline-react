@@ -73,7 +73,7 @@ export default function Game() {
     if (move > 0) {
       description = '< Jogada #' + move;
     } else {
-      description = 'Inicio do Jogo';
+      description = 'Início do Jogo';
     }
     return (
       <li key={move}>
