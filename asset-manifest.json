@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pipeline-react/static/css/main.2cb9a270.css",
+    "main.js": "/pipeline-react/static/js/main.23805506.js",
+    "index.html": "/pipeline-react/index.html",
+    "main.2cb9a270.css.map": "/pipeline-react/static/css/main.2cb9a270.css.map",
+    "main.23805506.js.map": "/pipeline-react/static/js/main.23805506.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb9a270.css",
+    "static/js/main.23805506.js"
+  ]
+}
