@@ -1,4 +1,5 @@
 {
+  "name": "pipeline-react",
   "homepage": "https://pedrohosantana.github.io/pipeline-react",
   "dependencies": {
     "react": "^18.0.0",
