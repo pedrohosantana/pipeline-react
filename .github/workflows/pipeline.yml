@@ -59,7 +59,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npm test --passWithNoTests
+        run: npm test -- --passWithNoTests
 
   deploy:
     runs-on: ubuntu-latest
